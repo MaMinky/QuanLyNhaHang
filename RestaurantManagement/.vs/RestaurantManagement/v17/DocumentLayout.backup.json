@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\msi\\source\\repos\\restaurantmanagement\\restaurantmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\msi\\source\\repos\\restaurantmanagement\\restaurantmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\msi\\source\\repos\\restaurantmanagement\\restaurantmanagement\\models\\dishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\models\\dishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\msi\\source\\repos\\restaurantmanagement\\restaurantmanagement\\dal\\restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\dal\\restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\msi\\source\\repos\\restaurantmanagement\\restaurantmanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\msi\\source\\repos\\restaurantmanagement\\restaurantmanagement\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{76D6AE11-C243-49BE-9586-DA01CC7A3EE9}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\Models\\User.cs",
+              "RelativeToolTip": "RestaurantManagement\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T03:01:20.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestaurantContext.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\DAL\\RestaurantContext.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\DAL\\RestaurantContext.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\DAL\\RestaurantContext.cs",
+              "RelativeToolTip": "RestaurantManagement\\DAL\\RestaurantContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T02:49:19.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dishes.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\Models\\Dishes.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Models\\Dishes.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\Models\\Dishes.cs",
+              "RelativeToolTip": "RestaurantManagement\\Models\\Dishes.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T02:37:18.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RestaurantManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T02:30:32.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "RestaurantManagement\\wwwroot\\css\\main.css",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "RestaurantManagement\\wwwroot\\css\\main.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T02:29:17.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RestaurantManagement\\RestaurantManagement\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "RestaurantManagement\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAE8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T15:01:27.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

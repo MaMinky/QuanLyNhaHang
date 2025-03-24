@@ -1,0 +1,32 @@
+﻿@model IEnumerable<RestaurantManagement.Models.BookingTable>
+@{
+    ViewData["Title"] = "Bookings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bookings</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Booking ID</th>
+            <th>User</th>
+            <th>Booking Date</th>
+            <th>Number of People</th>
+            <th>Table Number</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Model)
+        {
+            <tr>
+                <td>@booking.BookingID</td>
+                <td>@booking.User?.FullName</td>
+                <td>@booking.BookingDate.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@booking.NumberOfPeople</td>
+                <td>@booking.TableNumber</td>
+                <td>@booking.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>

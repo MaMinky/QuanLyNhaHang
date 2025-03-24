@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<head>
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true">
+</head>
+
+<div class="intro-section">
+    <h1>Welcome to Friend Restaurant</h1>
+    <h2>Giới Thiệu</h2>
+    <p>
+        Chào mừng bạn đến với Friend Restaurant – nơi mang đến những trải nghiệm ẩm thực tinh tế và đậm đà bản sắc Việt. Được thành lập từ 10 năm trước, chúng tôi luôn tự hào là điểm đến quen thuộc của thực khách yêu thích hương vị truyền thống kết hợp với phong cách phục vụ hiện đại.<br><br>
+        Tại Friend Restaurant, mỗi món ăn đều được chế biến từ nguồn nguyên liệu tươi ngon, qua bàn tay tài hoa của các đầu bếp giàu kinh nghiệm. Không gian ấm cúng, sang trọng cùng dịch vụ tận tâm chính là những yếu tố giúp chúng tôi luôn được khách hàng tin tưởng và yêu mến.<br><br>
+        Hãy đến và thưởng thức những món ăn đặc sắc tại Friend Restaurant – nơi lưu giữ tinh hoa ẩm thực và những khoảnh khắc đáng nhớ bên gia đình, bạn bè!
+    </p>
+</div>
+
+<div class="menu-section">
+    <h2>Thực Đơn Các Món Nước</h2>
+    <div class="menu-items water-food">
+        @foreach (var dish in ViewBag.WaterFoods)
+        {
+            <div class="menu-item">
+                <img src="~/images/@(dish.DishName.ToLower().Replace(" ", "-")).png" alt="@dish.DishName" width="200">
+                <p>@dish.DishName</p>
+                <p class="price">Giá: @dish.Price.ToString("N0") VNĐ</p>
+                <p class="description">@(dish.Description ?? "Không có mô tả")</p>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>Thực Đơn Món Khô</h2>
+    <div class="menu-items dry-food">
+        @foreach (var dish in ViewBag.DryFoods)
+        {
+            <div class="menu-item">
+                <img src="~/images/@(dish.DishName.ToLower().Replace(" ", "-")).png" alt="@dish.DishName" width="200">
+                <p>@dish.DishName</p>
+                <p class="price">Giá: @dish.Price.ToString("N0") VNĐ</p>
+                <p class="description">@(dish.Description ?? "Không có mô tả")</p>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>Combo</h2>
+    <div class="menu-items combo">
+        @foreach (var dish in ViewBag.Combos)
+        {
+            <div class="menu-item">
+                <img src="~/images/@(dish.DishName.ToLower().Replace(" ", "-")).png" alt="@dish.DishName" width="200">
+                <p>@dish.DishName</p>
+                <p class="price">Giá: @dish.Price.ToString("N0") VNĐ</p>
+                <p class="description">@(dish.Description ?? "Không có mô tả")</p>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>Tráng Miệng</h2>
+    <div class="menu-items trang-mieng">
+        @foreach (var dish in ViewBag.Desserts)
+        {
+            <div class="menu-item">
+                <img src="~/images/@(dish.DishName.ToLower().Replace(" ", "-")).png" alt="@dish.DishName" width="200">
+                <p>@dish.DishName</p>
+                <p class="price">Giá: @dish.Price.ToString("N0") VNĐ</p>
+                <p class="description">@(dish.Description ?? "Không có mô tả")</p>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="user-greeting">
+    @if (ViewBag.Username != null)
+    {
+        <p>Xin chào, @ViewBag.Username!</p>
+        <a href="@Url.Action("Logout", "Account")" class="btn btn-danger">Đăng xuất</a>
+    }
+</div>
+
+<div class="footer-info">
+    <p>About Us</p>
+    <p1>
+        Friend Restaurant tự hào là nhà hàng mang đậm phong cách Việt Nam, 
+        nơi bạn có thể thưởng thức những món ăn truyền thống được chế biến từ nguyên liệu tươi ngon nhất. 
+        Chúng tôi cam kết mang đến trải nghiệm ẩm thực tuyệt vời với không gian ấm cúng và dịch vụ chuyên nghiệp.
+    </p1>
+    <p>Information</p>
+    <p1>
+        Công ty TNHH Friend Restaurant<br>
+        Mã số thuế: 987654xxxx - Ngày cấp: 15/03/2015<br>
+        Nơi cấp: Sở kế hoạch và đầu tư TP.HCM<br>
+        Website: friend-restaurant.com
+    </p1>
+    <p>Privacy</p>
+    <p>
+        <a href="https://friend-restaurant.com/privacy-policy">Chính sách bảo mật</a>
+    </p>
+    <p>News</p>
+    <p1>
+        Theo dõi chúng tôi để nhận thông tin về các chương trình khuyến mãi và sự kiện đặc biệt tại Friend Restaurant!
+    </p1>
+</div>

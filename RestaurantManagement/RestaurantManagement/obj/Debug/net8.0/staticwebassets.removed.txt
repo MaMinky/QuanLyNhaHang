@@ -1,0 +1,9 @@
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\79k.png
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\banh flan.png
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\banh kep.png
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\cap doi.png
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\com chien.png
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\kem dau.png
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\lunch.png
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\pho.png
+C:\Users\MSI\source\repos\RestaurantManagement\RestaurantManagement\wwwroot\image\thach.png
